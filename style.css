@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(-45deg, #000000, #252525, #000000 , #000000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 200vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; /* Align items to the bottom */
+    width: 80%;
+    max-width: 50px; /* Adjust as needed */
+    margin: 0 auto; /* Centers the layout */
+}
+.item {
+    width: 30%; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust spacing between items */
+}
+.item img {
+    width: 50%; /* Ensure images fill their parent container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 200px; /* Limit the maximum width of the images */
+}
