@@ -59,3 +59,9 @@ p2 {
 h1 {
   padding-top: 20px;
 }
+
+#contact {
+color: white;
+align-items: flex-end;
+}
+
