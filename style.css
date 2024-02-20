@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
 body {
+  font-family: 'M PLUS Rounded 1c', sans-serif; /* Use the imported font or fallback to a system font */
   background: linear-gradient(-45deg, #000000, #171717, #1a1a1a, #000000);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
@@ -20,8 +23,11 @@ body {
 
 /*Header*/
 
+
 #wrapper {
-  padding: 50px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-left: 100px;
   text-align: center;
   font-size: 60px;
   color: #ffffff;
