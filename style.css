@@ -1,5 +1,7 @@
+/* Font Import */
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 
+/* Body Styles */
 body {
   font-family: 'M PLUS Rounded 1c', sans-serif; /* Use the imported font or fallback to a system font */
   background: linear-gradient(-45deg, #000000, #171717, #1a1a1a, #000000);
